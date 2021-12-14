@@ -46,10 +46,20 @@ public class LineCompUC1 {
 		
 	}
 	
+	static void EqualsGL()
+	{
+		 Equals();
+		 
+		 if (L1 > L2) {
+				System.out.println("Line1 is Greater line2");
+			} else if(L1 < L2) {
+				System.out.println("Line1 lesser than line2");	
+			}
+	}
+	
 	public static void main(String args[])
 	{
-		Equals();
+		EqualsGL();
 	}
 
 }
-
