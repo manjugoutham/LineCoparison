@@ -1,5 +1,4 @@
 package employeewage;
-
 import java.util.Scanner;
 
 public class LineCompUC1 {
