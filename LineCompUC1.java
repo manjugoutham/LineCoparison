@@ -1,11 +1,10 @@
 package employeewage;
-
 import java.util.Scanner;
+public class Linecode {
 
-public class LineCompUC1 {
+
 	static int len,len1;
 	static Integer L1,L2;
-	
 	static void CalLength()
 	{
 		Scanner sc = new Scanner(System.in);
@@ -56,10 +55,26 @@ public class LineCompUC1 {
 				System.out.println("Line1 lesser than line2");	
 			}
 	}
+
+	static void CompareTo() {
+		Equals();
+		int a = L1.compareTo(L2);
+		
+		if (a==0) {
+			System.out.println("Line1 is Greater line2");
+		} else if (a==-1) {
+			System.out.println("Line1 lesser than line2");
+		}
+	}
+	
+	
 	
 	public static void main(String args[])
 	{
-		EqualsGL();
+		//CalLength(4,6,5,7);
+		//Equals();
+		//EqualsGL();
+		CompareTo();
 	}
 
 }
